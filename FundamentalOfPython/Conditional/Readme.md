@@ -18,3 +18,4 @@ This anyway you have seen from our first programme.
 * Next Check Simple while loops examples
 * Next check Simple for loop examples
 * Go to different exercises next
+* Next try yourself GoodPractivalExecrcises
