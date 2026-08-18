@@ -32,7 +32,7 @@ def permutation_wth_identicalObject():
    print("Permutation of identical object for INFORMATION are :", number)
 
 
-def main():
+def main(): 
     permutation_of_3leters()
     permutation_of_4Letters()
     permutation_wth_identicalObject()
