@@ -19,3 +19,5 @@ This anyway you have seen from our first programme.
 * Next check Simple for loop examples
 * Go to different exercises next
 * Next try yourself GoodPractivalExecrcises
+* Read about Function and Example , permnutation implementations
+* Built in function and Library function examples
