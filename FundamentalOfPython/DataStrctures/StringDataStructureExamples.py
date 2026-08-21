@@ -104,3 +104,19 @@ print(finalval[: : -1]) # recerve the string
 
 my_string = 'Hello, World!'
 print(my_string[7:12])
+
+# concatenate two strings given by str_1 and str_2
+str1 = "My"
+str2 = "World"
+print(str1 + str2)
+final = "".join([str1, str2])
+print(final)
+
+final2 = f"{str1}{str2}"
+print(final2)
+
+final3 = "{}{}".format(str1, str2)
+print(final3)
+
+print(" pyTHon ".strip().capitalize())
+
