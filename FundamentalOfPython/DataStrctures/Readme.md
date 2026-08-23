@@ -11,6 +11,7 @@ Python offers several inbuilt DS
 Please go in this sequence unless you have already some experience in python programming
 * string data structure examples
 * List data structure
+* Next level List String examples
 
 ## List
 Python list are heterogeneous , able to hold various type of data
