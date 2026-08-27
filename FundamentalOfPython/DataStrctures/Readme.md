@@ -25,3 +25,7 @@ Examples : V = {a ,e ,i, o, u,A,E,I,O,U} # ordering does not bother
 set of letters of GOOGLE IS {G,O,L,E} # no repeatation
 As it is unordered , it can't be accessed in index way
 
+# Dictionary
+Should be hashable , Uniqque
+Mutable
+Key- pair element , automatically removes duplicates like key
