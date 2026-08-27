@@ -246,3 +246,8 @@ print(sorted(list1, reverse=True)[:2]) # make descending order , and take first 
 
 # print(sorted(list1)[-2:][::-1]) # traverse aschending order , takes last 2 and then just reverse it to get right order
 
+list1 = ["A", "B", "C"]
+list2 = [1, 2, 3]
+print("Is it dictionary ? ")
+print(zip(list1, list2))
+print("Is it a dictionary ?", dict(zip(list1, list2))) #YES

@@ -85,3 +85,45 @@ print( max(persons_stat)) # only comparing keys
 
 max_height_person = max(persons_stat , key=lambda person : persons_stat[person]['height'])
 print(f"Max height's person {max_height_person} and height is {persons_stat[max_height_person]['height']}")
+
+## Dictionary comprehension
+sq_dict = dict()
+def square_dictionary():
+    for val in range(1,10):
+        sq_dict[val] = val**2
+
+square_dictionary()
+print(f"Square dictionary : {sq_dict}")
+
+'''
+Defining the same in Dictionary comprehensive way
+'''
+sqr_dict = { x: x**2 for x in range(1,10)}
+print(f"Square dictionarry in comprehensive way {sqr_dict}")
+
+## SWap key/val pairs in dictionary comprehension way
+#duplicate_dict = {'A': 1, 'B':3 , 'C': 4 , 'A':5}
+
+swapped_dict = {val:key.lower() for key, val in duplicate_dict.items()}
+print(f"SWapped dictionary for {duplicate_dict} is {swapped_dict}")
+
+# if some condition there , then those condition will be in the end of comprehension
+sqr_of_even = {x : x**2 for x in range(1,10) if x%2 == 0}
+print(f"Square of even numbers dictionary {sqr_of_even}")
+
+## But if-else changes the syntax 
+even_sqr_odd_cube = { val : (val**2 if val % 2 == 0 else val**3 ) for val in range(1,10)}
+print(even_sqr_odd_cube)
+
+## test some
+dict1={"a":1,"b":2}
+
+dict2={"c":3,"d":4}
+
+dict1.update(dict2)
+print(dict1)
+
+country = {"England":"London","Australia":"Sydney","India":"New Delhi"}
+country2 = {"England":"London","Australia":"Sydney"}
+print(country.get("India"))
+print(country2.get("India",0)) # Unless that default value , it will print None

@@ -5,6 +5,51 @@ def main():
     reverse_string()
     just_test()
     vowel_remover_editor()
+    higher_order_func()
+    passed_function()
+    print("Use help() for a function to get its description which is written in docstring")
+    help(calculation)
+    test_lambda_function()
+    test_higher_order_func()
+
+def test_higher_order_func():
+    bal = 100000
+    print(transaction(deposit, 5000, bal))
+    print(transaction(withdraw, 10000, bal))
+
+def withdraw(amt, bal):
+  return bal - amt
+
+def deposit(amt, bal):
+  return bal + amt
+
+def transaction(action, amt, bal):
+  return action(amt, bal)
+
+def test_lambda_function():
+    f = lambda x:bool(x%2)
+    print(f(100) and f(101))
+
+def passed_function():
+    print("Pass function! Just execute without doing anything")
+    pass
+
+# Or you can type hint(though not must for python) like - 
+# def calculation(operation , x : int , y : int) ->float
+def calculation(operation , x , y):
+    '''
+    This is a higher order function , which takes an operation along with its paramter
+    You can pass any function as part of operation
+    Alternatively you can pass lambda function 
+    '''
+    return operation(x,y)
+
+# Lambda function : A concise, anonymous function which is defined using the lambda keyword 
+# and is used for short, simple tasks.
+def higher_order_func():
+    print("Calculation in higher Order way")
+    print(calculation(lambda x,y: x/y , 20 , 5 ))
+
 
 def vowel_remover_editor():
     '''
