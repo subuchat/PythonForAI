@@ -1,0 +1,18 @@
+{
+  "binomial": {
+    "n": 10,
+    "p": 0.2
+  },
+  "poisson": {
+    "rate": 2
+  },
+  "calculation": {
+    "k": 2
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/distributions.log",
+    "max_bytes": 1000000,
+    "backup_count": 3
+  }
+}

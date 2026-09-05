@@ -29,3 +29,7 @@ As it is unordered , it can't be accessed in index way
 Should be hashable , Uniqque
 Mutable
 Key- pair element , automatically removes duplicates like key
+
+# Detail example
+* lookinto MaMeasureofCentralTendency - for mean/mode/median/probability implementation
+* 
