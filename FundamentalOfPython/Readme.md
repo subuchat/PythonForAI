@@ -9,3 +9,5 @@ Then function ways , tried to showcase different way for variable and operator u
 * Once above two section done , come to **Conditional** area , to understand how to use
 ''' if elif else''' or '''switch''' statement
 * After **Conditional** , lets visit **DataStructure** , where I am planning to update all Python data structures with examples , like String/list/set/dictinary/Tuple
+* By this time , you are familiar with Python , syntax and datastructure and control steructures. So lets see **YourLearningExcercise**
+* Then check how we can use environment variable usiing .env / yaml/json file way and how can we make OOP way **probability_oop_app*
