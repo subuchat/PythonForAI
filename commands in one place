@@ -1,0 +1,65 @@
+
+
+python class - upgrad teacher whatsapp : 9920258274
+
+https://t.me/+yC18lMaTxXVmYmJl
+telegram group
+
+@ravi_upGrad
+
+===================
+
+11th sept
+
+setting up environment in wondow 
+
+pip install uv
+uv --version
+
+Create virtual environment :
+
+uv venv --python 3.11 <optional name of virt env>
+
+Activate with: .venv\Scripts\activate
+
+deactivate : deactivate
+
+INstall packages :
+
+uv add pandas [cant be if not started by uv init]
+   OR
+uv pip install package-name
+
+or if you have requirements.txt
+
+uv pip install -r requirements.txt
+
+
+======================= 
+
+$ jupyter notebook => it will open as local server
+
+
+========================== all commands ============
+## Environment Setup
+
+python --version
+
+uv --version
+
+pip install uv
+
+# create virtual Environment
+uv venv --python 3.11
+
+# Activate venv for windows
+.venv\Scripts\Activate 
+
+# Activate venv for MAC / Ubuntu
+source .venv/bin/activate
+
+uv pip install -r requirements.txt
+
+# open jupyter notebook
+jupyter notebook
+======================================
