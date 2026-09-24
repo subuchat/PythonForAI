@@ -20,23 +20,23 @@ seaborn                     # Statistical visualizations built on Matplotlib
 plotly                      # Interactive charts and dashboards
 
 # ── Deep learning ───────────────────────────────────────────
-keras                       # High-level API for building neural networks
-torch                       # PyTorch deep learning framework and Keras 3 backend
-torchvision                 # Computer vision datasets, models, and transforms for PyTorch
+#keras                       # High-level API for building neural networks
+#torch                       # PyTorch deep learning framework and Keras 3 backend
+#torchvision                 # Computer vision datasets, models, and transforms for PyTorch
 
 # ── Natural language processing ─────────────────────────────
-nltk                        # Classical natural language processing utilities and corpora
-spacy                       # Production-oriented tokenization, tagging, and NLP pipelines
-transformers                # Pretrained transformer models for NLP and other modalities
-sentence-transformers       # Embeddings and semantic similarity models
+#nltk                        # Classical natural language processing utilities and corpora
+#spacy                       # Production-oriented tokenization, tagging, and NLP pipelines
+#transformers                # Pretrained transformer models for NLP and other modalities
+#sentence-transformers       # Embeddings and semantic similarity models
 
 # ── Configuration and common utilities ──────────────────────
 python-dotenv               # Loads environment variables from a .env file
 tqdm                        # Progress bars for loops and training jobs
-joblib                      # Model persistence and lightweight parallel processing
+#joblib                      # Model persistence and lightweight parallel processing
 
 # ── Jupyter and interactive development ─────────────────────
-jupyter                     # Jupyter notebook tools and interactive computing support
-jupyterlab                  # Modern browser-based Jupyter development environment
-notebook                    # Classic Jupyter Notebook interface
-ipykernel                   # Python kernel used to run notebooks in Jupyter and VS Code
+#jupyter                     # Jupyter notebook tools and interactive computing support
+#jupyterlab                  # Modern browser-based Jupyter development environment
+#notebook                    # Classic Jupyter Notebook interface
+#ipykernel                   # Python kernel used to run notebooks in Jupyter and VS Code

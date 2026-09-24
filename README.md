@@ -21,6 +21,27 @@ $ python -m pip install --upgrade pip
 * keep all libraries and dependencies intalled within a single requirements.txt
 $ python -m pip freeze > requirements.txt
 
+## Set up using `uv`
+
+python --version
+
+uv --version
+
+pip install uv
+
+# create virtual Environment
+uv venv --python 3.11
+
+# Activate venv for windows
+.venv\Scripts\Activate 
+
+# Activate venv for MAC / Ubuntu
+source .venv/bin/activate
+
+uv pip install -r requirements.txt
+
+# open jupyter notebook
+jupyter notebook
 
 
 ## Different other package usages
