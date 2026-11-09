@@ -62,4 +62,8 @@ You can learn here Python , also if you know - can brush up
     - Best use colab for these files , else make virtual env
     - It contain basic of Supervised , Unsupervised learning
     - Try to understand different method to measure model outcome ( like RMSE for Regression and Accuracy for Classification)
+    - Then jump to DeepLearningExamples , you may check with CNN and then RNN and then NLP related different usage
     
+  *  Jumping towards LLM usage
+   - Lets check with Basic connection and calling using OpenAI APIs ( need to check in )
+   - Experiements with pydantic usage , to understand structured output from LLM
